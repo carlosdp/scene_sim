@@ -9,11 +9,11 @@
 
   <asset>
     <!-- <texture name="skybox" type="skybox" builtin="gradient" rgb1=".08 .09 .10" rgb2="0 0 0" width="800" height="800" mark="random" markrgb=".8 .8 .8"/> -->
-    <texture name="skybox" type="skybox" gridsize="3 4" gridlayout=".U..LFRB.D.." file="../scene_sim/textures/night.png"/>
-    <texture name="texplane" type="2d" height="1" width="1" file="../scene_sim/textures/oak_floorboard.png"/>
+    <texture name="skybox" type="skybox" gridsize="3 4" gridlayout=".U..LFRB.D.." file="textures/night.png"/>
+    <texture name="texplane" type="2d" height="1" width="1" file="scene_sim/textures/oak_floorboard.png"/>
     <material name="MatPlane" reflectance="0.05" texture="texplane" texrepeat="4 4" texuniform="true"/>
-    <mesh name="robohive" file="../scene_sim/meshes/robohive_text.stl"/>
-    <mesh name="robohive_half" file="../scene_sim/meshes/robohive_logohalf.stl" scale="4 4 4"/>
+    <mesh name="robohive" file="scene_sim/meshes/robohive_text.stl"/>
+    <mesh name="robohive_half" file="scene_sim/meshes/robohive_logohalf.stl" scale="4 4 4"/>
   </asset>
 
   <visual>
